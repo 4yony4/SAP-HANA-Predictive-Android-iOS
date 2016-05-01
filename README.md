@@ -40,20 +40,21 @@ To use the full potential of the predictive analytics of HCP, we will explain ho
 
 ## Kick-off: Identifying HCP core functionalities
 We are interested in using the Predictive Analysis Library (PAL). This library is offered by the HCP Sap team and allows the users to create table relations in the database structure on the cloud platform that complies with predictive functionality needs. 
+
 Because we will make use of the PAL on the cloud platform, it is important to design an appropriate database structure using SAP Hana studio. Once the database is created correctly with its proper relations, from the mobile device we will be able to use either native java calls or SQL requests and receive the information to our app.
 
 ## Creating a native app (Android or iOS)
-First you would like to create your HANA Cloud Platform trial account and enable mobile services [Details](http://hcp.sap.com/developers/TutorialCatalog/webapp_01_enable_hcp_mobile_services_trial.html).
-Then you will install Android Studio 2.1 [Download here](http://developer.android.com/intl/es/sdk/index.html) as well as SAP Hana Studio. 
-Afterwards you will download and install the latest SAP Mobile Platform SDK and any patch releases [Download link](https://store.sap.com/sap/cpa/ui/resources/store/html/SolutionDetails.html?pid=0000013098&catID=MOB&pcntry=US&sap-language=EN&_cp_id=id-1441300266697-0).
-Once you have all installed, you should save the path of the folder which the mobile platform SDK was installed (D:\Apps\SAP\MobileSDK3\ in my case).
-You create an Android Studio project, minimum SDK version of 15. 
-You edit the app.grade dependency section adding the following lines:
+1. First you would like to create your HANA Cloud Platform trial account and enable mobile services [Details](http://hcp.sap.com/developers/TutorialCatalog/webapp_01_enable_hcp_mobile_services_trial.html).
+2. Then you will install Android Studio 2.1 [Download here](http://developer.android.com/intl/es/sdk/index.html) as well as SAP Hana Studio. 
+3. Afterwards you will download and install the latest SAP Mobile Platform SDK and any patch releases [Download link](https://store.sap.com/sap/cpa/ui/resources/store/html/SolutionDetails.html?pid=0000013098&catID=MOB&pcntry=US&sap-language=EN&_cp_id=id-1441300266697-0).
+4. Once you have all installed, you should save the path of the folder which the mobile platform SDK was installed (D:\Apps\SAP\MobileSDK3\ in my case).
+5. You create an Android Studio project, minimum SDK version of 15. 
+6. You edit the app.grade dependency section adding the following lines:
 
-compile fileTree(include: '*.jar', dir: 'YOURPATH/MobileSDK3/NativeSDK/ODataFramework/Android/libraries')
-compile fileTree(include: '*.jar', dir: ' YOURPATH/MobileSDK3/NativeSDK/MAFReuse/Android/libraries')
+  * compile fileTree(include: '*.jar', dir: 'YOURPATH/MobileSDK3/NativeSDK/ODataFramework/Android/libraries')
+  * compile fileTree(include: '*.jar', dir: ' YOURPATH/MobileSDK3/NativeSDK/MAFReuse/Android/libraries')
 
-Finally for each *.aar file you may find in each folder inside the NativeSDK, you will create a “new module” and import it as an external AAR file. It will depend on what functionality you want to add to your app. In my case I have added all:
+7. Finally for each *.aar file you may find in each folder inside the NativeSDK, you will create a “new module” and import it as an external AAR file. It will depend on what functionality you want to add to your app. In my case I have added all:
  
 Remember to add the new modules to the “app” dependency list (File-project settings->dependencies).
 If you complied with all this steps you should be able to import SAP Mobile Platform SDK methods to your app.
