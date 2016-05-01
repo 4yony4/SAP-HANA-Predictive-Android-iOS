@@ -43,9 +43,9 @@ We are interested in using the Predictive Analysis Library (PAL). This library i
 Because we will make use of the PAL on the cloud platform, it is important to design an appropriate database structure using SAP Hana studio. Once the database is created correctly with its proper relations, from the mobile device we will be able to use either native java calls or SQL requests and receive the information to our app.
 
 ## Creating a native app (Android or iOS)
-First you would like to create your HANA Cloud Platform trial account and enable mobile services [Details].
-Then you will install Android Studio (2.1) as well as SAP Hana Studio. 
-Afterwards you will download and install the latest SAP Mobile Platform SDK and any patch releases [Download link].
+First you would like to create your HANA Cloud Platform trial account and enable mobile services [Details](http://hcp.sap.com/developers/TutorialCatalog/webapp_01_enable_hcp_mobile_services_trial.html).
+Then you will install Android Studio 2.1 [Download here](http://developer.android.com/intl/es/sdk/index.html) as well as SAP Hana Studio. 
+Afterwards you will download and install the latest SAP Mobile Platform SDK and any patch releases [Download link](https://store.sap.com/sap/cpa/ui/resources/store/html/SolutionDetails.html?pid=0000013098&catID=MOB&pcntry=US&sap-language=EN&_cp_id=id-1441300266697-0).
 Once you have all installed, you should save the path of the folder which the mobile platform SDK was installed (D:\Apps\SAP\MobileSDK3\ in my case).
 You create an Android Studio project, minimum SDK version of 15. 
 You edit the app.grade dependency section adding the following lines:
