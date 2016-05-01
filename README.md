@@ -43,6 +43,12 @@ We are interested in using the Predictive Analysis Library (PAL). This library i
 
 Because we will make use of the PAL on the cloud platform, it is important to design an appropriate database structure using SAP Hana studio. Once the database is created correctly with its proper relations, from the mobile device we will be able to use either native java calls or SQL requests and receive the information to our app.
 
+1.	First we will register to a HCP account in the following web page: [HCP SAP](https://hcp.sap.com/developers.html#section_4). Once completed you will be asked to activate the account.
+2.	So now we log in and you will have the first peek at the HCP control panel.
+3.	In the services section you will see all potential services we can activate and use in SAP HANA. Ensure to activate Mobile Services.
+ 
+ ![alt text](res/img1.jpg "HCP Control Panel View")
+
 ## Creating a native app (Android or iOS)
 1. First you would like to create your HANA Cloud Platform trial account and enable mobile services [Details](http://hcp.sap.com/developers/TutorialCatalog/webapp_01_enable_hcp_mobile_services_trial.html).
 2. Then you will install Android Studio 2.1 [Download here](http://developer.android.com/intl/es/sdk/index.html) as well as SAP Hana Studio. 
