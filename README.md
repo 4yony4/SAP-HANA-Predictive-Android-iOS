@@ -50,7 +50,7 @@ Because we will make use of the PAL on the cloud platform, it is important to de
  ![alt text](res/img1.jpg "HCP Control Panel View")
 
 ## Creating a native app (Android or iOS)
-1. First you would like to create your HANA Cloud Platform trial account and enable mobile services [Details](http://hcp.sap.com/developers/TutorialCatalog/webapp_01_enable_hcp_mobile_services_trial.html).
+1. After you created your HANA Cloud Platform trial account, you will enable mobile services [Details](http://hcp.sap.com/developers/TutorialCatalog/webapp_01_enable_hcp_mobile_services_trial.html).
 2. Then you will install Android Studio 2.1 [Download here](http://developer.android.com/intl/es/sdk/index.html) as well as SAP Hana Studio. 
 3. Afterwards you will download and install the latest SAP Mobile Platform SDK and any patch releases [Download link](https://store.sap.com/sap/cpa/ui/resources/store/html/SolutionDetails.html?pid=0000013098&catID=MOB&pcntry=US&sap-language=EN&_cp_id=id-1441300266697-0).
 4. Once you have all installed, you should save the path of the folder which the mobile platform SDK was installed (D:\Apps\SAP\MobileSDK3\ in my case).
