@@ -55,10 +55,13 @@ Because we will make use of the PAL on the cloud platform, it is important to de
   * compile fileTree(include: '*.jar', dir: ' YOURPATH/MobileSDK3/NativeSDK/MAFReuse/Android/libraries')
 
 7. Finally for each *.aar file you may find in each folder inside the NativeSDK, you will create a “new module” and import it as an external AAR file. It will depend on what functionality you want to add to your app. In my case I have added all:
+
+ ![alt text](res/img2.jpg "Imported modules to the projects")
  
 Remember to add the new modules to the “app” dependency list (File-project settings->dependencies).
 If you complied with all this steps you should be able to import SAP Mobile Platform SDK methods to your app.
  
+![alt text](res/img3.jpg "Imported java package")
 
 ## Importing and connecting with HCP API.
 
