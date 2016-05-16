@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.gebulot.hcp_predictive_tutorial1"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:support-v4:23.3.0'
+    compile 'com.android.support:recyclerview-v7:23.3.0'
+    compile 'com.android.support:design:23.3.0'
+    compile fileTree(include: '*.jar', dir: 'D:/Apps/SAP/MobileSDK3/NativeSDK/ODataFramework/Android/libraries')
+    compile fileTree(include: '*.jar', dir: 'D:/Apps/SAP/MobileSDK3/NativeSDK/MAFReuse/Android/libraries')
+    compile project(':AfariaProvider-3.11.0')
+    compile project(':CDSProvider-3.11.0')
+    compile project(':mafcalendar-1.211.0')
+    compile project(':mafformatters-1.211.0')
+    compile project(':maflocaleawarecontrols-1.211.0')
+    compile project(':maflogonui-1.211.0')
+    compile project(':maflogviewer-1.211.0')
+    compile project(':mafsettingscreen-1.211.0')
+    compile project(':maftreeview-1.211.0')
+    compile project(':mafuicomponents-1.211.0')
+    compile project(':MobilePlace-3.11.0')
+}

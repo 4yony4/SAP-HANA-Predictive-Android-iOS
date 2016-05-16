@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AfariaProvider-3.11.0/AfariaProvider-3.11.0.iml" filepath="$PROJECT_DIR$/AfariaProvider-3.11.0/AfariaProvider-3.11.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CDSProvider-3.11.0/CDSProvider-3.11.0.iml" filepath="$PROJECT_DIR$/CDSProvider-3.11.0/CDSProvider-3.11.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HCP_Predictive_Tutorial1.iml" filepath="$PROJECT_DIR$/HCP_Predictive_Tutorial1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MobilePlace-3.11.0/MobilePlace-3.11.0.iml" filepath="$PROJECT_DIR$/MobilePlace-3.11.0/MobilePlace-3.11.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mafcalendar-1.211.0/mafcalendar-1.211.0.iml" filepath="$PROJECT_DIR$/mafcalendar-1.211.0/mafcalendar-1.211.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mafformatters-1.211.0/mafformatters-1.211.0.iml" filepath="$PROJECT_DIR$/mafformatters-1.211.0/mafformatters-1.211.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maflocaleawarecontrols-1.211.0/maflocaleawarecontrols-1.211.0.iml" filepath="$PROJECT_DIR$/maflocaleawarecontrols-1.211.0/maflocaleawarecontrols-1.211.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maflogonui-1.211.0/maflogonui-1.211.0.iml" filepath="$PROJECT_DIR$/maflogonui-1.211.0/maflogonui-1.211.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maflogviewer-1.211.0/maflogviewer-1.211.0.iml" filepath="$PROJECT_DIR$/maflogviewer-1.211.0/maflogviewer-1.211.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mafsettingscreen-1.211.0/mafsettingscreen-1.211.0.iml" filepath="$PROJECT_DIR$/mafsettingscreen-1.211.0/mafsettingscreen-1.211.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maftreeview-1.211.0/maftreeview-1.211.0.iml" filepath="$PROJECT_DIR$/maftreeview-1.211.0/maftreeview-1.211.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mafuicomponents-1.211.0/mafuicomponents-1.211.0.iml" filepath="$PROJECT_DIR$/mafuicomponents-1.211.0/mafuicomponents-1.211.0.iml" />
+    </modules>
+  </component>
+</project>

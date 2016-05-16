@@ -70,10 +70,23 @@ If you complied with all this steps you should be able to import SAP Mobile Plat
 ![alt text](res/img3.jpg "Imported java package")
 
 ## Importing and connecting with HCP API.
+To complete the connection with the HCP it is recommended to follow the tutorial on how to implement the native android app with SAP HCP. For the purpose of this example, a small example parser was created. The SAPAdmin is a class that initiates connection with the HCP as well as execute a simple request. It is important to remember that PAL (Predictive Analysis Library) is purely on the cloud, which means that depending on the chart flow implementation you may be able to achieve better and faster request results.
+
+![alt text](res/img4.jpg "SAPAdmin/SAPAdmin.java")
 
 ## Testing on-demand real-time requests to HCP from our App.
+To test our example a class called SAPAdmin was created and allows us to initiate connection with our HCP service. If you want to use the example it will require to define the "baseURL" as well as create requests associated with the tables that exist in the HCP database.
+
+![alt text](res/img5.jpg "Init method in SAPAdmin.java")
+
+![alt text](res/img6.jpg "Request method in SAPAdmin.java")
+
 
 ## Example uses of HCP in our Apps.
+As an example, the only steps that have to take place is execute the request method with the desired request. The return will include the information selected from the PAL based database.
+
+![alt text](res/img7.jpg "Example request")
+
 
 ## Credits
 * [BeMyApp](https://bemyapp.com) - BeMyApp home page

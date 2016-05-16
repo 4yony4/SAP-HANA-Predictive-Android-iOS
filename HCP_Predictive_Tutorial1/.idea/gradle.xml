@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AfariaProvider-3.11.0" />
+            <option value="$PROJECT_DIR$/CDSProvider-3.11.0" />
+            <option value="$PROJECT_DIR$/MobilePlace-3.11.0" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/mafcalendar-1.211.0" />
+            <option value="$PROJECT_DIR$/mafformatters-1.211.0" />
+            <option value="$PROJECT_DIR$/maflocaleawarecontrols-1.211.0" />
+            <option value="$PROJECT_DIR$/maflogonui-1.211.0" />
+            <option value="$PROJECT_DIR$/maflogviewer-1.211.0" />
+            <option value="$PROJECT_DIR$/mafsettingscreen-1.211.0" />
+            <option value="$PROJECT_DIR$/maftreeview-1.211.0" />
+            <option value="$PROJECT_DIR$/mafuicomponents-1.211.0" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AfariaProvider-3.11.0" />
+            <option value="$PROJECT_DIR$/CDSProvider-3.11.0" />
+            <option value="$PROJECT_DIR$/MobilePlace-3.11.0" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/mafcalendar-1.211.0" />
+            <option value="$PROJECT_DIR$/mafformatters-1.211.0" />
+            <option value="$PROJECT_DIR$/maflocaleawarecontrols-1.211.0" />
+            <option value="$PROJECT_DIR$/maflogonui-1.211.0" />
+            <option value="$PROJECT_DIR$/maflogviewer-1.211.0" />
+            <option value="$PROJECT_DIR$/mafsettingscreen-1.211.0" />
+            <option value="$PROJECT_DIR$/maftreeview-1.211.0" />
+            <option value="$PROJECT_DIR$/mafuicomponents-1.211.0" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
